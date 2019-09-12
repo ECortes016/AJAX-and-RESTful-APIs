@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 GET https://api.github.com/users/vakanbi971
 content-type: application/json
+=======
+GET https://pokeapi.co/api/v2/pokemon/charmander/
+content-type: application/json
+>>>>>>> master
