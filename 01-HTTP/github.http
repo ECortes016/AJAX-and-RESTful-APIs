@@ -1,2 +1,2 @@
-GET https://api.github.com/users/HansUXdev
+GET https://pokeapi.co/api/v2/pokemon/charmander/
 content-type: application/json
