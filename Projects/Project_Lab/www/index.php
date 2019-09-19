@@ -34,7 +34,7 @@
                                     $link = mysqli_connect("mysql", "root", "password", null);
                                     /* check connection */
                                     if (mysqli_connect_errno()) {
-                                        printf("MySQL connecttion failed: %s", mysqli_connect_error());
+                                        printf("MySQL connection failed: %s", mysqli_connect_error());
                                     } else {
                                         /* print server version */
                                         printf("MySQL Server %s", mysqli_get_server_info($link));
@@ -51,6 +51,7 @@
                         <hr>
                         <div class="content">
                             <ul>
+                                <li><a href="http://localhost:8000/stocks.html">stocks.html</a></li>
                                 <li><a href="http://localhost:8000/phpinfo.php">phpinfo()</a></li>
                                 <li><a href="http://localhost:8080">phpMyAdmin</a></li>
                                 <li><a href="http://localhost:8000/test_db.php">Test DB Connection</a></li>
